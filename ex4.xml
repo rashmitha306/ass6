@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href="ex4.xsl"?>
+<emp>
+<s>
+ <eno> 101 </eno>
+ <name> 
+	<fname> xxx </fname>
+	<lname> yyy </lname>
+	<mname> zzz</mname>
+ </name>
+ <fathername> esdrf </fathername>
+ <DOB> 18-01-1989</DOB>
+ <city> manglore</city>
+ <state>karnataka  </state>
+ <qualification> BCA </qualification>
+</s>
+<s>
+ <eno> 1002 </eno>
+ <name> 
+	<fname> ashok </fname>
+	<lname> sa </lname>
+	<mname> sad </mname>
+ </name>
+ <fathername> xxxx </fathername>
+ <DOB> 15-07-2000 </DOB>
+ <city> yyyy </city>
+ <state> pk </state>
+ <qualification> bcom </qualification>
+</s>
+<s>
+ <eno> 1003 </eno>
+ <name> 
+	<fname> aaaa</fname>
+	<lname> bbbb </lname>
+	<mname> S </mname>
+ </name>
+ <fathername> dddd </fathername>
+ <DOB> 18-03-1867 </DOB>
+ <city> wsed </city>
+ <state> karn </state>
+ <qualification>doctor</qualification>
+</s>
+</emp>
+
+

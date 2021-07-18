@@ -1,0 +1,19 @@
+car {
+  display: block;
+  border: 1px solid red;
+  padding: 25px;
+  background-color: powderblue;
+}
+year {
+	font-size: 25px;
+  color: darkgreen;
+  font-weight: bolder;
+}
+model {
+	font-size: 25px;
+  color: darkred;
+  font-weight: bolder;
+  font-family: calibri;
+
+}
+accessories{color: blue;}

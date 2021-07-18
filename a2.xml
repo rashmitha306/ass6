@@ -1,0 +1,50 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE car_catalog [
+<!ELEMENT planes_for_sale (ad+)>
+<!ELEMENT ad (year, make, model, color, description,
+price?, seller, location)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT make (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT seller (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ATTLIST seller phone CDATA #REQUIRED>
+<!ATTLIST seller email CDATA #IMPLIED>
+<!ENTITY c "Cessna">
+<!ENTITY p "Piper">
+<!ENTITY b "Beechcraft">
+]>
+<?xml-stylesheet type="text/css" href="a2.css"?>
+<planes_for_sale>
+	<ad>
+		<make> &c; </make>
+		<year> 2000 </year>
+		<model> 4x200-30 </model>
+		<color> White </color>
+		<description> If you’re a fan of our most iconic aircraft, choose from our double-decker 4x200-30 model. </description>
+		<price> Rs. 5,50,222 </price>
+		<seller phone = "740-845-9856"> Woodwords Aircraft </seller>
+		<location>
+			<city> Mangalore </city>
+			<state> Karnataka </state>
+		</location>
+	</ad>
+	<ad>
+		<make> &p; </make>
+		<year> 2018 </year>
+		<model> Ivanshov </model>
+		<color> Gold and White </color>
+		<description> We have the largest fleet of Ivanshov aircraft in the world. </description>
+		<price> Rs. 2,27,495 </price>
+		<seller phone = "785-333-2323" email = "ivanshov@www.axl.com"> Ivanshov group Aircraft </seller>
+		<location>
+			<city> Mumbai </city>
+			<state> Maharashtra </state>
+		</location>
+	</ad>
+</planes_for_sale>
